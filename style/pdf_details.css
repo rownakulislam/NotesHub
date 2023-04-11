@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body2{
+    overflow-y: auto;
+    color: black;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper{
+    height: auto;
+    align-items: center;
+    /* margin-top: 600px; */
+    background:#E69A8DFF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    min-height: 300px;
+    text-align: center;
+}
+.download{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background:#E69A8DFF;
+    border: 1px solid tan;
+    border-radius: 10px;
+    padding: 10px 5px;
+    width: 110px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.3s all ease;
+    margin: 20px auto;
+}
+
+.download:hover{
+    background: tan;
+    color: white;
+    transition: 0.3s all ease;
+}
+.wrapper #form .inputbox{
+    margin: 10px auto;
+}
+
+.wrapper #form .inputbox input[type="text"],textarea{
+
+    background:  rgb(234, 177, 167);
+    width: 450px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    resize: vertical;
+    transition: 0.3s all ease;
+}
+.wrapper #form .inputbox textarea:focus{
+    border-color: black;
+}
+.wrapper .content {
+    text-align: center;
+    margin: 10px 0;
+    color: black;
+}
+.details{
+    border-radius: 10px;
+    color: black;
+    background: rgb(234, 177, 167);
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: 0.3s all ease;
+}
+.wrapper .content .item {
+    border-radius: 10px;
+    color: black;
+    background: rgb(234, 177, 167);
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: 0.3s all ease;
+}
+
+.wrapper .content .item:hover {
+    box-shadow: 0 0 5px  tan;
+}
+
+#btn {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background: rgb(234, 177, 167);
+    border: 1px solid tan;
+    border-radius: 10px;
+    padding: 10px 5px;
+    width: 110px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.3s all ease;
+}
+
+#btn:hover {
+    background: tan;
+    color: white;
+    transition: 0.3s all ease;
+}

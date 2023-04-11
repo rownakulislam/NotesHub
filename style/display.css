@@ -1,0 +1,68 @@
+.cards{
+    margin:0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(222px,1fr));
+    /* gap: 20px; */
+    font-family: 'Courier New', Courier, monospace;
+}
+.card{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    /* border: 2px solid gray; */
+    border-radius: 10px;
+    background-color: #E69A8DFF;
+}
+.nextpage{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.title{
+    height: 80px;
+    overflow: hidden;
+    line-height: 1.5;
+    text-align: center;
+}
+.card__content{ 
+    margin: 0px;
+    height: 80px;
+    overflow: hidden;
+    line-height: 1.5;
+    padding: 15px;
+    background: rgb(234, 177, 167);
+}
+.card__content>p:first-of-type{
+    margin-top: 0;
+}
+.card__content>p:last-of-type{
+    margin-top: 0;
+}
+.card__info{
+    /* border: 2px solid gray; */
+    /* height: 50px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(216, 149, 138);
+    align-items: center;
+    z-index: 2;
+}
+.like-btn{
+    z-index: 2;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: all .3s ease .3s;
+    cursor: pointer;
+}
+.card__info >like{
+ border:1 px solid black;
+}
+.card__info download{
+    font-size: 0.9em;
+} 
